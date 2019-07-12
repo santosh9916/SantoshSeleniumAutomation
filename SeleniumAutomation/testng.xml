@@ -1,0 +1,16 @@
+<suite name="Suite" parallel="True">
+  <test name="Test">
+  <parameter name="browser" value="chrome"/>
+  <classes>
+      <class name="crossbrowsertesting.CrossBrowserDemo"></class>
+  </classes>
+  <parameter name="browser" value="firefox"/>
+  <classes>
+      <class name="crossbrowsertesting.CrossBrowserDemo"></class>
+  </classes>
+  <parameter name="browser" value="ie"/>
+  <classes>
+      <class name="crossbrowsertesting.CrossBrowserDemo"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
